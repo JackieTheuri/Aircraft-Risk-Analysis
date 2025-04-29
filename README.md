@@ -7,41 +7,30 @@ This project analyzes aviation accident data from the National Transportation Sa
 Key Deliverables:
 Non-Technical Presentation (PDF) – Business-friendly insights
 Jupyter Notebook (.ipynb + PDF) – Technical analysis with Python
-Interactive Dashboard (Tableau Public) – Exploratory data visualization
+Interactive Dashboard (Tableau Public) – https://public.tableau.com/authoring/AircraftRiskAnalysis_17459562536450/Sheet1#1
 GitHub Repository – Organized code, data, and documentation
 
 
 Goal: Acquire the safest aircraft to minimize financial and operational risks
-
 Key Business Questions:
 Which aircraft models have the lowest accident rates?
-
 What are the most common causes of accidents?
-
 How does aircraft age or manufacturer impact safety?
-
 Data Understanding & Analysis
 Data Source:
 NTSB Aviation Accident Dataset (1962–2023)
 
 Includes:
-
 Accident severity, location, aircraft type, manufacturer, and contributing factors
 
 Data Cleaning & Preparation:
 Handled missing values (imputation, dropping irrelevant columns)
-
 Aggregated data by aircraft model, manufacturer, and year
-
 Filtered for commercial & private aviation (excluded military)
 
 Key Visualizations:
 Accident Rate by Aircraft Model
-
 Identifies safest models with fewest incidents
-
 Common Causes of Accidents 
-
 Accidents Over Time by Manufacturer (Line Graph)
-
 Shows reliability trends for major brands
